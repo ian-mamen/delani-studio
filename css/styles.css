@@ -23,3 +23,122 @@ h6 {
 .resize {
     font-size: cal(1vh + 1vw + .5vmin);
 }
+#about,
+#service,
+#people,
+.specific,
+#contact,
+.footer p {
+    font-family: 'Merienda', cursive;
+}
+.col-md-12 {
+    width: 100%;
+    color: #fff;
+    font-family: 'Akronim', cursive;
+    font-size: calc(1vw + 1vh + .5vmin);
+    font-size: 1.1em;
+}
+h1 {
+    font-family: 'Akronim', cursive;
+}
+#service {
+    background-image: url('../img/backgrounds/s_image.jpg');
+    color: #fff;
+    margin-bottom: 50px;
+    background-position: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.card-deck {
+    padding: 1% 4%;
+  }
+  .specific {
+    margin-bottom: 4%;
+}
+.image1 {
+    padding-top: 9%;
+    margin-bottom: 3%;
+}
+.image2 {
+    margin-top: 20%;
+    padding: 35px 0;
+}
+.sermain {
+    margin-top: 15%;
+}
+.hide {
+    display: none;
+}
+.form-cont input {
+    width: 49%;
+    background: transparent;
+}
+.form-cont textarea {
+    margin-top: 10px;
+    width: 100%;
+    background: transparent;
+}
+#contact {
+    padding-top: 100px;
+    margin-bottom: 50px;
+    background-image: url('../img/backgrounds/c_image.jpg');
+    background-size: cover;
+    background-position: cover;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10%;
+}
+.footer {
+    margin-top: 30px;
+}
+.form-cont {
+    text-align: center;
+    position: relative;
+    width: 700px;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+::placeholder,
+.con {
+    color: #fff;
+}
+::placeholder{
+    font-size: 10px;
+}
+.con {
+    padding-bottom: 30px;
+}
+.what {
+    margin-bottom: 30px;
+}
+#meso {
+    background-color: transparent;
+}
+.social img {
+    border-radius: 50%;
+    transition: 0.2s ease-out;
+}
+.social img:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    margin: -3px;
+    padding: 3px;
+    background: yellowgreen;
+}
+#portfolio img {
+    width: 100%;
+}
+@media screen and (max-width:450px) {
+    .form-cont input {
+        width: 100%;
+        margin-top: 10px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width:1024px) {
+    * {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
+}
