@@ -1,5 +1,5 @@
 # {DELANI STUDIO}
-#### {This project enables clients to have access to software programmers}, {Sun 17 2020}
+#### {This project enables clients to have access to communicate with software programmers}, {Sun 17 2020}
 #### By **{IAN AMUGA}**
 ## Description
 {This is an application that gives a brief description of what Delani Studio does and enables clients to send emails and get confirmations from the developers. }
